@@ -9,14 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 </head>
+</head>
 <body>
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
-            <a href="#home" class="nav-logo">Deysi Ortega Román</a>
+            <a href="#home" class="nav-logo">Deysi Ortega</a>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#research">Research</a>
+                <a href="#publications">Publications</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#contact">Contact</a>
             </div>
@@ -26,13 +28,36 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">HCI Researcher<br><span class="accent">& Visual Artist</span></h1>
-                <p class="hero-subtitle">Co-design • Digital Health • Community-Based Participatory Research</p>
-                <div class="hero-tags">
-                    <span class="tag tag-warm">Co-Design</span>
-                    <span class="tag tag-fuchsia">Human-Computer Interaction</span>
-                    <span class="tag tag-green">Visual Arts</span>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Deysi Ortega Román<br><span class="accent">HCI Researcher & Visual (Amateur) Artist</span></h1>
+                    <p class="hero-subtitle">Co-design • Digital Health • Community-Based Participatory Research</p>
+                    
+                    <div class="hero-contact-info">
+                        <p>📧 <span class="__cf_email__" >OrtegaRomanDH@cardiff.ac.uk</span>
+                        </p>
+                        <p>📍 Cardiff, Wales, UK</p>
+                        <p>💼 Research Associate, PERUSANO Project</p>
+                    </div>
+                    
+                    <div class="hero-tags">
+                        <span class="tag tag-warm">Co-Design</span>
+                        <span class="tag tag-fuchsia">Digital Health</span>
+                        <span class="tag tag-green">Participatory Research</span>
+                    </div>
+                </div>
+                
+                <div class="hero-photo-container">
+                    <div class="hero-photo-wrapper">
+                        <div class="hero-photo-frame"></div>
+                        <!-- Replace this placeholder with your actual photo -->
+                        <!-- <div class="hero-photo-placeholder">
+                            Add Your Photo Here<br>(3:4 ratio works best)
+                        </div> -->
+                        <!-- When you have your photo, replace the div above with:-->
+                        <img src="images/profile-photo.jpg" alt="Deysi Ortega Román" class="hero-photo">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,11 +67,12 @@
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
+            
             <div class="about-content">
                 <div class="about-text">
                     <p>I recently completed my PhD in Human-Centred Computing at Cardiff University, where I focused on designing socio-technical digital health interventions for and with low-resource communities. My research leverages community-based social innovation and promotes social inclusivity in the design of digital health technologies.</p>
                     
-                    <p>Beyond research, I'm passionate about visual arts - sketching and painting serve as both creative outlets and ways to think through complex design problems. This blend of analytical and artistic thinking shapes how I approach both participatory design research and creative projects.</p>
+                    <p>Beyond research, I'm passionate about visual arts - sketching and painting serve as both creative outlets and ways to think through complex design problems. This blend of analytical and artistic thinking shapes how I approach both participatory design research and creative projects. For example, by creating storyboards and design cards and using them in the design process.</p>
                     
                     <p>I'm currently a Research Associate on the PERUSANO project, working at the intersection of HCI, digital health, and community-based participatory research. I'm seeking opportunities where I can apply my expertise in co-design methodologies, participatory research, and creative problem-solving to meaningful projects that make a positive social impact.</p>
                 </div>
@@ -69,8 +95,8 @@
                         <li>Painting</li>
                         <li>Prototyping & Wireframing</li>
                         <li>UI/UX Design (Figma)</li>
-                        <li>Web Development (HTML, CSS, JavaScript)</li>
-                        <li>Data Analysis (R)</li>
+                        <li>Web Development (HTML, CSS, JavaScript, Typescript, Angular)</li>
+                        <li>Data Analysis</li>
                     </ul>
                 </div>
             </div>
@@ -86,19 +112,24 @@
                 <!-- Project 1 - PhD Research -->
                 <article class="project-card">
                     <div class="project-header">
-                        <h3>PhD: Designing Digital Health Interventions for Low-Resource Communities</h3>
+                        <h3>PhD: Designing Digital Health Interventions for and with Low-Resource Communities</h3>
                         <span class="project-tag tag-fuchsia">Digital Health</span>
                     </div>
                     <p class="project-description">
-                        Focused on designing socio-technical digital health interventions for and with low-resource communities in Peru. Leveraged community-based social innovation and promoted social inclusivity in the design of digital health technologies through participatory methods. Thesis submitted with viva confirmed.
+                        My thesis explored the creation and adaptation of methods and tools to engage with low-resource communities in Peru to promote healthy nutrition among children under two years old. It describes the iterative design of context-specific design cards and presents a co-design process involving several co-design workshops with caregivers, health promoters and healthcare professionals from two Peruvian communities. Viva passed in January 2025.
                     </p>
-                    <div class="project-links">
+                    <!-- <div class="project-links">
                         <a href="https://orcid.org/0000-0002-6931-2331" class="project-link">ORCID Profile →</a>
+                    </div> -->
+                    <div class="gallery-item" data-title="Artwork Title 1">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #F2C4A5 0%, #E89E7C 100%);">
+                            <img src="images/Huanuco Ideation Workshop Caregivers-2.png" alt="">
+                        </div>
                     </div>
                 </article>
 
                 <!-- Project 2 - PERUSANO -->
-                <article class="project-card">
+                <!-- <article class="project-card">
                     <div class="project-header">
                         <h3>Co-Designing Child Nutrition Interventions in Peru</h3>
                         <span class="project-tag tag-warm">Co-Design</span>
@@ -109,10 +140,10 @@
                     <div class="project-links">
                         <a href="https://doi.org/10.1145/3793548" class="project-link">Read Paper →</a>
                     </div>
-                </article>
+                </article> -->
 
                 <!-- Project 3 - Community Networks -->
-                <article class="project-card">
+                <!-- <article class="project-card">
                     <div class="project-header">
                         <h3>Collective Infrastructural Speculations for Resilient Networks</h3>
                         <span class="project-tag tag-green">CSCW</span>
@@ -123,23 +154,101 @@
                     <div class="project-links">
                         <a href="https://scholar.google.com/citations?user=YOUR_ID" class="project-link">Google Scholar →</a>
                     </div>
-                </article>
+                </article> -->
 
                 <!-- Project 4 - BendableSound -->
                 <article class="project-card">
                     <div class="project-header">
-                        <h3>BendableSound: Interactive Surfaces for Children with Autism</h3>
+                        <h3>MSc: Interactive surfaces to support the free play for children with autism (BendableSound)</h3>
                         <span class="project-tag tag-fuchsia">HCI</span>
                     </div>
                     <p class="project-description">
-                        Designed and evaluated an elastic multisensory surface using touch-based interactions to assist children with severe autism during music therapy. Long-term deployment study resulted in novel insights for designing interactive surfaces for neurodiverse children. Published in IJHCS.
+                        Designed and evaluated an elastic multisensory surface using touch-based interactions to assist children with severe autism during music therapy. BendableSound uses the Kinect sensor and the TSPS library to detect when users’ tap or touch the fabric. To design BendableSound, I followed a user-centered design process involving interviews, observation and design sessions with caregivers. To evaluate the impact of BendableSound I compared its use against the use of traditional musical instruments during free-play involving music-based activities. We conducted a within-subjects experiment where 24 children with autism used the elastic interfaces and traditional music-based activities.  Our results show children with autism were more willing to start free-play and were more time “on task” when using BendableSound against our control condition using traditional musical objects.
                     </p>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Learn More →</a>
+                    <div class="gallery-item" data-title="Artwork Title 1">
+                        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #F2C4A5 0%, #E89E7C 100%);">
+                            <img src="images/bendable.jpg" alt="">
+                        </div>
                     </div>
+                    <!-- <div class="project-links">
+                        <a href="https://docs.google.com/presentation/d/1rKHirp3sUpup3wU7OpxzkrHa5yBctw6e9N1I5_eAA50/edit?slide=id.gac1c80d16a_0_19#slide=id.gac1c80d16a_0_19" class="project-link">Learn More →</a>
+                    </div> -->
                 </article>
 
+
             </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Recent Publications</h2>
+            <p class="publications-intro">
+                Selected peer-reviewed publications. View my complete publication list on 
+                <a href="https://orcid.org/0000-0002-6931-2331" target="_blank">ORCID</a> or 
+                <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>.
+            </p>
+
+            <!-- Publication 1 -->
+            <div class="publication-item">
+                <h3>Co-Ideating with Caregivers and Healthcare Professionals: Socio-Technical Strategies to Support Early Childhood Nutrition</h3>
+                <p class="publication-authors">
+                    <strong>Deysi Ortega</strong>, Rosario M. Bartolini, Rossina Pareja, Katarzyna Stawarz, Hilary M. Creed-Kanashiro, Michelle Holdsworth, Paula Griffiths, Emily Rousham, Nervo Verdezoto
+                </p>
+                <p class="publication-venue">
+                    <strong>ACM Transactions on Computing for Healthcare</strong> (2026)
+                </p>
+                <div class="publication-links">
+                    <a href="https://doi.org/10.1145/3793548" class="publication-link" target="_blank">📄 Read Paper</a>
+                    <!-- <a href="projects/perusano.html" class="publication-link">🔍 Project Details</a> -->
+                </div>
+            </div>
+
+            <!-- Publication 2 -->
+            <div class="publication-item">
+                <h3>Barriers and Facilitators to Participation when Involving Caregivers and Healthcare Workers in Co-design Workshops in Low-resource Settings</h3>
+                <p class="publication-authors">
+                    <strong>Deysi Ortega</strong>, Rosario Bartolini, Rossina Pareja, Hillary M. Creed-Kanashiro, Katarzyna Stawarz, Michelle Holdsworth, Emily Rousham, Nervo Verdezoto
+                </p>
+                <p class="publication-venue">
+                    <strong>European Conference on Computer-Supported Cooperative Work (ECSCW)</strong> (2024)
+                </p>
+                <div class="publication-links">
+                    <a href="#" class="publication-link" target="_blank">📄 Read Paper</a>
+                    <!-- <a href="projects/codesign-barriers.html" class="publication-link">🔍 Project Details</a> -->
+                </div>
+            </div>
+
+            <!-- Publication 3 -->
+            <div class="publication-item">
+                <h3>Design Opportunities to Facilitate Tangible Play and Promote Healthy Nutrition in Low-resource Healthcare Settings in Peru</h3>
+                <p class="publication-authors">
+                    <strong>Deysi Ortega</strong>, Rosario Bartolini, Rossina Pareja, Katarzyna Stawarz, Hilary Creed-Kanashiro, Michelle Holdsworth, Emily Rousham, Nervo Verdezoto Dias
+                </p>
+                <p class="publication-venue">
+                    <strong>ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS)</strong> (2024)
+                </p>
+                <div class="publication-links">
+                    <a href="#" class="publication-link" target="_blank">📄 Read Paper</a>
+                    <!-- <a href="projects/tangible-play.html" class="publication-link">🔍 Project Details</a> -->
+                </div>
+            </div>
+
+            <!-- Publication 4 -->
+            <!-- <div class="publication-item">
+                <h3>BendableSound: An Elastic Multisensory Surface Using Touch-based Interactions to Assist Children with Severe Autism</h3>
+                <p class="publication-authors">
+                    F. L. Cibrian, O. Peña, <strong>Deysi Ortega</strong>, M. Tentori
+                </p>
+                <p class="publication-venue">
+                    <strong>International Journal of Human-Computer Studies</strong> (2017)
+                </p>
+                <div class="publication-links">
+                    <a href="#" class="publication-link" target="_blank">📄 Read Paper</a>
+                    <a href="projects/bendablesound.html" class="publication-link">🔍 Project Details</a>
+                </div>
+            </div> -->
         </div>
     </section>
 
@@ -150,80 +259,71 @@
             <p class="gallery-intro">A collection of sketches and paintings exploring form, color, and expression.</p>
             
             <div class="gallery-grid" id="galleryGrid">
-                <!-- Gallery items will be added here -->
-                <!-- You'll replace these placeholder divs with your actual artwork images -->
+                <!-- Gallery items - You'll replace these placeholders with your actual artwork images -->
                 
                 <div class="gallery-item" data-title="Artwork Title 1">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #F2C4A5 0%, #E89E7C 100%);">
-                        <!-- <span> -->
-                            <img src="images/ovejas.png" alt="Sheep with two smaller sheep sleeping">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/1-ovejas.png" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 2">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #E85D9A 0%, #C74375 100%);">
-                        <!-- <span> -->
-                            <img src="images/6116ec05-4a9a-4e48-a9b2-7bc58df73eb7.png" alt="">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/2-illustration_mx.png" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 3">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #7FAB8C 0%, #5D8B6D 100%);">
-                        <!-- <img src="images/20221118_091407-ANIMATION.gif" alt=""> -->
-                        <!-- <span> -->
-                            <img src="images/IMG-20251018-WA0009.jpg" alt="">
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/3-bird_nad_sea.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 4">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #D8A088 0%, #B87D5F 100%);">
-                        <!-- <span> -->
-                            <img src="images/IMG-20241224-WA0020.jpeg" alt="">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/4-Abacws_painting.jpeg" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 5">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #F598C3 0%, #E85D9A 100%);">
-                        <!-- <span> -->
-                            <img src="images/IMG-20250223-WA0001.jpg" alt="">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/5-Road_park.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 6">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #92BFA0 0%, #7FAB8C 100%);">
-                        <!-- <span> -->
-                            <img src="images/IMG-20250312-WA0003.jpg" alt="">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/6-Steven_robot.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 4">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #D8A088 0%, #B87D5F 100%);">
-                        <span>
-                            <img src="images/cuna-mas.png" alt="">
-                        </span>
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/7-thekiss.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 5">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #F598C3 0%, #E85D9A 100%);">
-                        <!-- <span> -->
-                            <img src="images/Presentation1.jpg" alt="">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/dey-sketch.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="gallery-item" data-title="Artwork Title 6">
                     <div class="gallery-placeholder" style="background: linear-gradient(135deg, #92BFA0 0%, #7FAB8C 100%);">
-                        <!-- <span> -->
-                            <img src="images/IMG-20250710-WA0003.jpeg" alt="">
-                        <!-- </span> -->
+                        <!-- <span>Add Your Image</span> -->
+                         <img src="images/9-house.jpeg" alt="">
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -237,14 +337,14 @@
                     I'm currently working as a Research Associate on the PERUSANO project and am open to opportunities in UX research, design research, digital health, or roles that blend participatory design with social impact. Feel free to reach out!
                 </p>
                 <div class="contact-links">
-                    <a href="mailto:OrtegaRomanDH@Cardiff.ac.uk" class="contact-link">
+                    <a href="mailto:ortegaromandh@cardiff.ac.uk" class="contact-link">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                             <polyline points="22,6 12,13 2,6"/>
                         </svg>
                         Email
                     </a>
-                    <a href="https://scholar.google.com/citations?user=YOUR_ID" class="contact-link" target="_blank">
+                    <a href="https://scholar.google.com/citations?user=v__ilzIAAAAJ&hl=en" class="contact-link" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z"/>
                         </svg>
@@ -256,14 +356,14 @@
                         </svg>
                         ORCID
                     </a>
-                    <a href="https://www.cardiff.ac.uk/people/view/YOUR-PROFILE" class="contact-link" target="_blank">
+                    <a href="https://profiles.cardiff.ac.uk/staff/ortegaromandh" class="contact-link" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
                         </svg>
                         Cardiff Profile
                     </a>
-                    <a href="/Deysi_Ortega_Roman_CV.pdf" class="contact-link" target="_blank">
+                    <a href="Deysi_Ortega_Roman_CV.pdf" class="contact-link" target="_blank">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
                             <polyline points="14,2 14,8 20,8"/>
@@ -281,7 +381,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Deysi Ortega Román. Built with care.</p>
+            <p>&copy; 2025 Deysi Ortega Román. Built with care and Claude.</p>
         </div>
     </footer>
 
@@ -296,6 +396,103 @@
         <button class="lightbox-nav lightbox-next">&#10095;</button>
     </div>
 
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+// Smooth Scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// Gallery Lightbox
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-image');
+const lightboxCaption = document.getElementById('lightbox-caption');
+const closeBtn = document.querySelector('.lightbox-close');
+const prevBtn = document.querySelector('.lightbox-prev');
+const nextBtn = document.querySelector('.lightbox-next');
+const galleryItems = document.querySelectorAll('.gallery-item');
+
+let currentIndex = 0;
+
+galleryItems.forEach((item, index) => {
+    item.addEventListener('click', () => {
+        openLightbox(index);
+    });
+});
+
+function openLightbox(index) {
+    currentIndex = index;
+    const item = galleryItems[index];
+    
+    const img = item.querySelector('img');
+    if (img) {
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+    } else {
+        const placeholder = item.querySelector('.gallery-placeholder');
+        const canvas = document.createElement('canvas');
+        canvas.width = 800;
+        canvas.height = 800;
+        const ctx = canvas.getContext('2d');
+        
+        const bgStyle = window.getComputedStyle(placeholder).background;
+        ctx.fillStyle = bgStyle;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '30px Inter';
+        ctx.textAlign = 'center';
+        ctx.fillText('Replace with your artwork', canvas.width/2, canvas.height/2);
+        
+        lightboxImg.src = canvas.toDataURL();
+        lightboxImg.alt = 'Placeholder';
+    }
+    
+    lightboxCaption.textContent = item.dataset.title || 'Untitled';
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+}
+
+function showNext() {
+    currentIndex = (currentIndex + 1) % galleryItems.length;
+    openLightbox(currentIndex);
+}
+
+function showPrev() {
+    currentIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+    openLightbox(currentIndex);
+}
+
+closeBtn.addEventListener('click', closeLightbox);
+nextBtn.addEventListener('click', showNext);
+prevBtn.addEventListener('click', showPrev);
+
+lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+        closeLightbox();
+    }
+});
+
+document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('active')) return;
+    
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') showNext();
+    if (e.key === 'ArrowLeft') showPrev();
+});
+    </script>
     <script src="script.js"></script>
-</body>
 </html>
